@@ -1,6 +1,6 @@
 # Projeto TechMan
 - documentação seguida : https://github.com/wellifabio/senai2023/tree/main/3des/01-proj/aula17
-## back (express mongoose) e front html, css, js
+## back node js e front html, css, js
 - Requisitos
     - Node.js: https://nodejs.org/
     - MySQL: https://www.mysql.com/
