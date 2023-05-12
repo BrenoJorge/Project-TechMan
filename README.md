@@ -20,9 +20,10 @@
         ```
         
     - Abra a pasta /docs
-        - entre na pasta sql e faça alterações de path nos caminhos dos dados
-        - faça a importação dos dados 
+        - entre na pasta sql e faça alterações de path nas linhas 'LOAD DATA INFILE' 
+        - faça a importação dos dados via terminal xampp ou http://localhost/phpmyadmin
     - Abra a pasta /front
         - Execute o index.html com o Live Server (Extensão do VsCode)
+        
 ![](./docs/documentacao/telaLogin.png)
 ![](./docs/documentacao/telaHome.png)
