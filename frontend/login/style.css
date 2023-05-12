@@ -116,3 +116,12 @@ main {
   display: none;
   visibility: hidden;
 }
+
+.block{
+  background-color: rgb(177, 175, 175);
+  cursor: auto;
+}
+
+.block:hover{
+  background-color: rgb(177, 175, 175);
+}

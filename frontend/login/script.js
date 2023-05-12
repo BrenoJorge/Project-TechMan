@@ -1,5 +1,7 @@
+
 function limparCalc() {
     document.querySelector(".senha").innerHTML = ""
+    document.querySelector(".delete").classList.add("block")
     senha = ""
 }
 
@@ -13,9 +15,9 @@ function addSenha(e) {
 
     if (senha.length > 5) {
         document.querySelector(".delete").disabled = false
+        document.querySelector(".delete").classList.remove("block")
     } else {
         document.querySelector(".alert").classList.add("model")
-
         document.querySelector(".delete").disabled = true
     }
 
@@ -46,6 +48,7 @@ function login() {
                 window.location.href = "../home/index.html"
             } else {
                 document.querySelector(".alert").classList.remove("model")
+                document.querySelector(".delete").classList.add("block")
                 senha = ""
                 document.querySelector(".senha").innerHTML = ""
             }
